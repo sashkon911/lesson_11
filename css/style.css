@@ -1,0 +1,75 @@
+.header__container{
+    background-color: aqua;
+    min-height: 40px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 100%
+}
+.header__text{
+   text-align: center;
+   margin: 0 auto;
+   font-weight: 700;
+   font-size: 30px;
+}
+.main__container{
+    position: relative;
+    padding-top: 40px;
+}
+.main__background-img{
+    max-width: 100%
+}
+.main__tractor-left{
+    max-width: 200px;
+    max-height: 200px;
+    position: relative;
+    left: 100px;
+    bottom: 600px;
+    z-index: 2;
+    max-width: 100%
+}
+.main__tractor-right{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 800px;
+    bottom: 700px;
+    z-index: 2;
+    max-width: 100%
+}
+.main__tractor-top{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    bottom: 800px;
+    z-index: 2;
+    max-width: 100%
+}
+.main__tractor-bottom{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 80px;
+    bottom: 100px;
+    z-index: -1;
+    max-width: 100%
+}
+.main__tractor-centr{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: px;
+    bottom: 400px;
+    z-index: 2;
+    max-width: 100%
+}
+.main__tractor{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    max-width: 100%
+}
+
